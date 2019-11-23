@@ -10,26 +10,6 @@
 	color: #009688;
 }
 
-.pink {
-	color: #e2a2ae;
-}
-
-.blue {
-	color: #005aab;
-}
-
-.green {
-	color: #29666c;
-}
-
-.red {
-	color: #a8122c;
-}
-
-.orange {
-	color: #f65026;
-}
-
 .yellow {
 	color: #ffc428;
 }
@@ -106,4 +86,50 @@ nav {
 @keyframes blink-animation {
   from, to { opacity: 0 }
   50% { opacity: 1 }
+}
+
+/* Home */
+
+.home {
+	width: 100%;
+	height: 92vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/central-extra.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.home .row {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.home-text {
+	color: #fff;
+	text-align: center;
+}
+
+.text-shadow {
+	text-shadow: 1px 2px black;
+}
+
+#permissao-text {
+	font-size: 1.2em;
+	text-shadow: 1px 2px black;
+}
+
+.home-text hr {
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.home-text .btn {
+	border-radius: 60px;
 }

@@ -1,10 +1,13 @@
-@media only screen and (max-width: 1200px){
-	
-}
-
 @media only screen and (max-width: 1024px){
 	.nav-links {
 		width: 60%;
+	}
+
+	.home {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/central-grande.jpg');
+		background-position: center;
+		background-attachment: fixed;
+		background-size: 100% 100%;
 	}
 }
 
@@ -24,7 +27,7 @@
 		align-items: center;
 		width: 45%;
 		transform: translateX(100%);
-		transition: transform 0.5s ease-in;
+		z-index:1;
 	}
 
 	.nav-links li {
@@ -33,6 +36,22 @@
 
 	.burguer {
 		display: block;
+	}
+
+	.home {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/central-medio.jpg');
+		background-position: center;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.home {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/central-pequeno.jpg');
+		background-position: center;
+		background-attachment: fixed;
+		background-size: 100% 100%;
 	}
 }
 
