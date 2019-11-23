@@ -19,3 +19,11 @@ const navSlide = () => {
 }
 
 navSlide();
+
+$('.js--scroll-to-features').click(function(){
+	$('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+});
+
+$('.js--scroll-to-home').click(function(){
+	$('html, body').animate({scrollTop: $('.js--section-home').offset().top}, 1000);
+});

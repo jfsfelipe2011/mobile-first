@@ -40,7 +40,12 @@ nav {
 	color: rgb(226, 266, 266);
 	text-decoration: none;
 	letter-spacing: 3px;
-	font-size: 12px;
+	font-size: 14px;
+	outline: none;
+}
+
+.nav-links a:hover {
+	color: #DCDCDC;
 }
 
 /* Burguer */
