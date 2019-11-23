@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* cores */
+.dark-cian {
+	color: #009688;
+}
+
+.pink {
+	color: #e2a2ae;
+}
+
+.blue {
+	color: #005aab;
+}
+
+.green {
+	color: #29666c;
+}
+
+.red {
+	color: #a8122c;
+}
+
+.orange {
+	color: #f65026;
+}
+
+.yellow {
+	color: #ffc428;
+}
+
+/* nav */
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #141418;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links a {
+	color: rgb(226, 266, 266);
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+/* Burguer */
+.burguer {
+	display: none;
+	cursor: pointer;
+}
+
+.burguer div {
+	width: 25px;
+	height: 3px;
+	background-color: rgb(226, 266, 266);
+	margin: 5px;
+	transition: all 0.3s ease;
+}
+
+/* animação logo */
+.logo-animate {
+  font-family: menlo, monospace;
+  font-weight: 600;
+  font-size: 0.6em;
+  color: #eeeeee;
+}
+
+.logo-animate:before {
+	content: '➜ ~';
+	color: #009688;
+}
+
+.logo-animate::first-letter {
+	color: #009688;
+}
+
+.logo-animate:after {
+	content: '▉';
+	color: #009688;
+	-webkit-animation: blink-animation 1s steps(1, start) infinite;
+    animation: blink-animation 1s steps(1, start) infinite;
+}
+
+@-webkit-keyframes blink-animation {
+  from, to { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+@keyframes blink-animation {
+  from, to { opacity: 0 }
+  50% { opacity: 1 }
+}
