@@ -35,3 +35,7 @@ $('.js--scroll-to-team').click(function(){
 $('.js--scroll-to-pricing').click(function(){
     $('html, body').animate({scrollTop: $('.js--section-pricing').offset().top}, 1000);
 });
+
+$('.js--scroll-to-contact').click(function(){
+    $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000);
+});

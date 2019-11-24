@@ -181,7 +181,6 @@ nav {
 
 .team {
 	max-width: 1500px;
-	height: 75vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -199,10 +198,56 @@ nav {
 }
 
 /* pricing */
+.pricing {
+	height: 92vh;
+}
+
 .cd-value {
 	font-size: 3em;
 }
 
 .cd-pricing-wrapper {
 	z-index: -1;
+}
+
+/* contact */
+#contact-btn-div {
+	text-align: center;
+	margin-bottom: 7%;
+}
+
+.contact a {
+	background-color: #009688;
+	border-radius: 50%;
+	cursor: none;
+}
+
+.contact a:hover {
+	background-color: #009688;
+}
+
+.contact a:active {
+	background-color: #009688;
+}
+
+.contact a:focus {
+	background-color: #009688;
+}
+
+.contact a i {
+	color: #eeeeee;
+	margin: 0 auto;
+}
+
+.contact form {
+	margin: 0 auto;
+	width: 80%;
+}
+
+#contact-submit {
+	background-color: #009688;
+}
+
+#contact-submit-div {
+	text-align: center;
 }
