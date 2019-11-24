@@ -23,7 +23,7 @@ nav {
 	background-color: #141418;
 	position: fixed;
 	width: 100%;
-	z-index: 1;
+	z-index: 2;
 }
 
 .nav-links {
@@ -146,7 +146,7 @@ nav {
 /* Features */
 .features {
 	max-width: 1500px;
-	height: 92vh;
+	height: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -154,7 +154,7 @@ nav {
 }
 
 #features {
-	height: 8vh;
+	height: 15vh;
 }
 
 .features-itens {
@@ -172,4 +172,37 @@ nav {
 .features-itens p {
 	width: 80%;
 	margin: 0 auto;
+}
+
+/* Team */
+#team {
+	height: 15vh;
+}
+
+.team {
+	max-width: 1500px;
+	height: 75vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.team img {
+	width: 300px;
+	height: 550px;
+}
+
+.team div {
+	width: 600px;
+	padding: 3px;
+}
+
+/* pricing */
+.cd-value {
+	font-size: 3em;
+}
+
+.cd-pricing-wrapper {
+	z-index: -1;
 }

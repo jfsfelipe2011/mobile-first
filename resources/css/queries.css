@@ -1,4 +1,26 @@
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1200px) {
+	.cd-pricing-header h2 {
+		font-size: 1.7em;
+	}
+
+	.cd-currency {
+		font-size: 1.9em;
+	}
+
+	.cd-value {
+		font-size: 1.9em;
+	}
+
+	.cd-duration {
+		font-size: 1.7em;
+	}
+
+	.cd-pricing-features li {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
 	.nav-links {
 		width: 60%;
 	}
@@ -8,6 +30,30 @@
 		background-position: center;
 		background-attachment: fixed;
 		background-size: 100% 100%;
+	}
+
+	.team {
+		height: 120vh;
+	}
+
+	.cd-pricing-header h2 {
+		font-size: 1.2em;
+	}
+
+	.cd-currency {
+		font-size: 1.4em;
+	}
+
+	.cd-value {
+		font-size: 1.4em;
+	}
+
+	.cd-duration {
+		font-size: 1.2em;
+	}
+
+	.cd-pricing-features li {
+		font-size: 0.7em;
 	}
 }
 
@@ -27,7 +73,7 @@
 		align-items: center;
 		width: 45%;
 		transform: translateX(100%);
-		z-index:1;
+		z-index:2;
 	}
 
 	.nav-links li {
@@ -44,6 +90,34 @@
 		background-attachment: fixed;
 		background-size: 100% 100%;
 	}
+
+	#pricing {
+		height: 3vh;
+	}
+
+	.team {
+		height: 150vh;
+	}
+
+	.cd-pricing-header h2 {
+		font-size: 1.0em;
+	}
+
+	.cd-currency {
+		font-size: 1.2em;
+	}
+
+	.cd-value {
+		font-size: 1.2em;
+	}
+
+	.cd-duration {
+		font-size: 1.0em;
+	}
+
+	.cd-pricing-features li {
+		font-size: 0.5em;
+	}
 }
 
 @media only screen and (max-width: 480px){
@@ -52,6 +126,10 @@
 		background-position: center;
 		background-attachment: fixed;
 		background-size: 100% 100%;
+	}
+
+	#pricing {
+		height: 0;
 	}
 }
 

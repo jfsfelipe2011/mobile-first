@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="vendors/js/pricing-tables/css/style.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 </head>
@@ -41,12 +42,12 @@
                 </a>
             </li>
             <li>
-                <a href="#equipe">
+                <a href="#" class="js--scroll-to-team">
                     EQUIPE
                 </a>
             </li>
             <li>
-                <a href="#planos">
+                <a href="#" class="js--scroll-to-pricing">
                     PLANOS
                 </a>
             </li>
@@ -69,7 +70,7 @@
 				<div class="home-text col-md-8">
 					<h1>
 						<span class="text-shadow">MEU NOME É NERD,</span>
-						<span class="text-shadow yellow"><b> NERDS DEVS.</b></span>
+						<span class="text-shadow yellow"><b> NERDS DEVS</b></span>.
 					</h1>
 					<hr>
 					<p id="permissao-text">Nerds com permissão.
@@ -119,10 +120,171 @@
 		</div>
 	</div>
 
+	<div id="team" class=" js--section-team"></div>
+
+	<section class="container">
+		<div class="team">
+			<img src="resources/img/starwars-1.png" class="iphone-img" alt="imagem r2-d2">
+			<div>
+				<h1>A força que você precisa</h1>
+				<p>Somos um grupo de Nerds que tem grande experiência no ramo de soluções web e estamos dispostos a oferecer aos nossos
+					clientes as melhores tecnologias para impulsionar seu negocio e realizar seus sonhos.</p>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-user dark-cian"></i>&nbsp;José Felipe da Silva</li>
+					<li><i class="fa fa-user dark-cian"></i>&nbsp;Lucas Velho Porciuncula</li>
+					<li><i class="fa fa-user dark-cian"></i>&nbsp;Marcos Evaldt Ereno</li>
+					<li><i class="fa fa-user dark-cian"></i>&nbsp;Max Juniman</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<div id="pricing" class="js--section-pricing"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="cd-pricing-container">
+				<div class="cd-pricing-switcher">
+					<p class="fieldset">
+						<input type="radio" class="no-uniform" name="duration-1" value="monthly" id="monthly-1" checked>
+						<label for="monthly-1">Mensal</label>
+						<input type="radio" class="no-uniform" name="duration-1" value="yearly" id="yearly-1">
+						<label for="yearly-1">Anual</label>
+						<span class="cd-switch"></span>
+					</p>
+				</div>
+				<ul class="cd-pricing-list cd-bounce-invert">
+					<li>
+						<ul class="cd-pricing-wrapper">
+							<li data-type="monthly" class="is-visible">
+								<header class="cd-pricing-header">
+									<h2>Básico</h2>
+									<div class="cd-price">
+										<span class="cd-currency">R$</span>
+										<span class="cd-value">24</span>
+										<span class="cd-duration">mês</span>
+									</div>
+								</header>
+								<div class="cd-pricing-body">
+									<ul class="cd-pricing-features">
+										<li><em>1 GB</em> Conteúdo do Site </li>
+										<li><em>10</em> E-mails</li>
+										<li><em>1 GB</em> Banco de dados</li>
+										<li><em>24/7</em> Suporte</li>
+									</ul>
+								</div>
+							</li>
+							<li data-type="yearly" class="is-hidden">
+								<header class="cd-pricing-header">
+									<h2>Básico</h2>
+									<div class="cd-price">
+										<span class="cd-currency">R$</span>
+										<span class="cd-value">260</span>
+										<span class="cd-duration">Ano</span>
+									</div>
+								</header>
+								<div class="cd-pricing-body">
+									<ul class="cd-pricing-features">
+										<li><em>1 GB</em> Conteúdo do Site </li>
+										<li><em>10</em> E-mails</li>
+										<li><em>1 GB</em> Bancos de dados</li>
+										<li><em>24/7</em> Suporte</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="cd-popular">
+						<ul class="cd-pricing-wrapper">
+							<li data-type="monthly" class="is-visible">
+								<header class="cd-pricing-header">
+									<h2>Profissional</h2>
+									<div class="cd-price">
+										<span class="cd-currency">R$</span>
+										<span class="cd-value">34.60</span>
+										<span class="cd-duration">mês</span>
+									</div>
+								</header>
+								<div class="cd-pricing-body">
+									<ul class="cd-pricing-features">
+										<li><em>2 GB</em> Conteúdo do Site </li>
+										<li><em>20</em> E-mails</li>
+										<li><em>2 GB</em> Bancos de dados</li>
+										<li><em>24/7</em> Suporte</li>
+									</ul>
+								</div>
+							</li>
+							<li data-type="yearly" class="is-hidden">
+								<header class="cd-pricing-header">
+									<h2>Profissional</h2>
+									<div class="cd-price">
+										<span class="cd-currency">R$</span>
+										<span class="cd-value">373.68</span>
+										<span class="cd-duration">Ano</span>
+									</div>
+								</header>
+								<div class="cd-pricing-body">
+									<ul class="cd-pricing-features">
+										<li><em>2 GB</em> Conteúdo do Site </li>
+										<li><em>25</em> E-mails</li>
+										<li><em>2 GB</em> Bancos de dados</li>
+										<li><em>24/7</em> Suporte</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="cd-pricing-wrapper">
+							<li data-type="monthly" class="is-visible">
+								<header class="cd-pricing-header">
+									<h2>Premium</h2>
+									<div class="cd-price">
+										<span class="cd-currency">R$</span>
+										<span class="cd-value">57.90</span>
+										<span class="cd-duration">mês</span>
+									</div>
+								</header>
+								<div class="cd-pricing-body">
+									<ul class="cd-pricing-features">
+										<li><em>3 GB</em> Conteúdo do Site </li>
+										<li><em>30</em> E-mails</li>
+										<li><em>3 GB</em> Bancos de dados</li>
+										<li><em>24/7</em> Suporte</li>
+									</ul>
+								</div>
+							</li>
+							<li data-type="yearly" class="is-hidden">
+								<header class="cd-pricing-header">
+									<h2>Premium</h2>
+									<div class="cd-price">
+										<span class="cd-currency">R$</span>
+										<span class="cd-value">625.32</span>
+										<span class="cd-duration">Ano</span>
+									</div>
+								</header>
+								<div class="cd-pricing-body">
+									<ul class="cd-pricing-features">
+										<li><em>3 GB</em> Conteúdo do Site </li>
+										<li><em>50</em> E-mails</li>
+										<li><em>3 GB</em> Bancos de dados</li>
+										<li><em>24/7</em> Suporte</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="vendors/js/waypoint/lib/jquery.waypoints.min.js"></script>
+	<script src="vendors/js/pricing-tables/js/modernizr.js"></script>
+	<script src="vendors/js/pricing-tables/js/main.js"></script>
 	<script src="resources/js/scripts.js"></script>
 </body>
 </html>

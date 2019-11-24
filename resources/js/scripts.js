@@ -27,3 +27,11 @@ $('.js--scroll-to-features').click(function(){
 $('.js--scroll-to-home').click(function(){
 	$('html, body').animate({scrollTop: $('.js--section-home').offset().top}, 1000);
 });
+
+$('.js--scroll-to-team').click(function(){
+	$('html, body').animate({scrollTop: $('.js--section-team').offset().top}, 1000);
+});
+
+$('.js--scroll-to-pricing').click(function(){
+    $('html, body').animate({scrollTop: $('.js--section-pricing').offset().top}, 1000);
+});
