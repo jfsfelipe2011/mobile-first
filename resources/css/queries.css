@@ -114,6 +114,11 @@
 	.cd-pricing-features li {
 		font-size: 0.5em;
 	}
+
+	.team img {
+		width: 45%;
+		height: 50%;
+	}
 }
 
 @media only screen and (max-width: 480px){

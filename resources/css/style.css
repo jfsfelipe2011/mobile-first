@@ -97,7 +97,6 @@ nav {
 }
 
 /* Home */
-
 .home {
 	width: 100%;
 	height: 100vh;
@@ -145,7 +144,6 @@ nav {
 
 /* Features */
 .features {
-	max-width: 1500px;
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -173,7 +171,6 @@ nav {
 
 /* Team */
 .team {
-	max-width: 1500px;
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -183,8 +180,8 @@ nav {
 }
 
 .team img {
-	width: 30%;
-	height: 35%;
+	width: 22%;
+	height: 27%;
 }
 
 .team div {
