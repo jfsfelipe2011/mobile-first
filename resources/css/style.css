@@ -151,10 +151,7 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	text-align: center;
-}
-
-#features {
-	height: 15vh;
+	padding-top: 5%;
 }
 
 .features-itens {
@@ -175,21 +172,19 @@ nav {
 }
 
 /* Team */
-#team {
-	height: 15vh;
-}
-
 .team {
 	max-width: 1500px;
+	height: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	text-align: center;
+	padding-top: 7%;
 }
 
 .team img {
-	width: 300px;
-	height: 550px;
+	width: 30%;
+	height: 35%;
 }
 
 .team div {
@@ -199,7 +194,7 @@ nav {
 
 /* pricing */
 .pricing {
-	height: 110vh;
+	height: auto;
 }
 
 .cd-value {
@@ -211,10 +206,6 @@ nav {
 }
 
 /* contact */
-#contact {
-	height: 10vh;
-}
-
 #contact-btn-div {
 	text-align: center;
 	margin-bottom: 7%;

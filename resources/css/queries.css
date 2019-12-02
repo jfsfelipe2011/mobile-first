@@ -18,6 +18,14 @@
 	.cd-pricing-features li {
 		font-size: 1.2em;
 	}
+
+	.features {
+		padding-top: 22%;
+	}
+
+	.team {
+		padding-top: 20%;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -30,26 +38,6 @@
 		background-position: center;
 		background-attachment: fixed;
 		background-size: 100% 100%;
-	}
-
-	#features {
-		height: 7.5vh;
-	}
-
-	#team {
-		height: 7.5vh;
-	}
-
-	#pricing {
-		height: 2vh;
-	}
-
-	.pricing {
-		height: 45vh;
-	}
-
-	.team {
-		height: 80vh;
 	}
 
 	.cd-pricing-header h2 {
@@ -107,22 +95,6 @@
 		background-size: 100% 100%;
 	}
 
-	#team {
-		height: 7.5vh;
-	}
-
-	#pricing {
-		height: 0;
-	}
-
-	.pricing {
-		height: 50vh;
-	}
-
-	.team {
-		height: 100vh;
-	}
-
 	.cd-pricing-header h2 {
 		font-size: 1.0em;
 	}
@@ -150,40 +122,6 @@
 		background-position: center;
 		background-attachment: fixed;
 		background-size: 100% 100%;
-	}
-
-	#team {
-		height: 7.5vh;
-	}
-
-	#pricing {
-		height: 0;
-	}
-
-	.pricing {
-		height: 94vh;
-	}
-
-	.team {
-		height: 130vh;
-	}
-}
-
-@media only screen and (max-width: 360px){
-	#team {
-		height: 7.5vh;
-	}
-
-	#pricing {
-		height: 0;
-	}
-
-	.pricing {
-		height: 85vh;
-	}
-
-	.team {
-		height: 120vh;
 	}
 }
 
