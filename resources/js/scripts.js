@@ -39,3 +39,7 @@ $('.js--scroll-to-pricing').click(function(){
 $('.js--scroll-to-contact').click(function(){
     $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000);
 });
+
+$('.js--scroll-to-gallery').click(function(){
+    $('html, body').animate({scrollTop: $('.js--section-gallery').offset().top}, 1000);
+});
